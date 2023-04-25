@@ -1,0 +1,216 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "litesql.dtd">
+<database name="STE100Database" namespace="Database">
+
+  <!--1用户信息表格-->
+  <object name="UserIdentityInfo">
+    <!--唯一标识符，服务器生成下发-->
+    <field name="codeUniqueID"    type="bigint" unique="true"/>
+	 <!--角色类型-->
+    <field name="roleType"        type="integer">
+	  <!--学生-->
+      <value name="SYSTEM_USER_UNKNOW"     value="-1"/>
+	  <!--学生-->
+      <value name="SYSTEM_USER_STUDENT"    value="0"/>
+      <!--教师-->
+      <value name="SYSTEM_USER_TEACHER"    value="1"/>
+      <!--管理员-->
+      <value name="SYSTEM_USER_ADMIN"      value="2"/>
+	</field>
+	 <!--姓名-->
+    <field name="name"    		  type="string"/>
+	 <!--生日-->
+    <field name="brithday"        type="string"/>
+	 <!--性别-->
+    <field name="gender"    	  type="boolean">
+	  <!--男-->
+      <value name="MALE"      			   value="true"/>
+      <!--女-->
+      <value name="FEMALE"    			   value="false"/>
+	</field>
+	 <!--学号-->
+    <field name="studentID"    	  type="string"/>
+	 <!--身份证号-->
+    <field name="iDCardNo"    	  type="string"/>
+	 <!--身份证磁卡信息-->
+    <field name="iDMagCard" 	  type="string"/>
+	 <!--年级（届别）-->
+    <field name="nGrade"           type="integer"/>
+	 <!--班级-->
+    <field name="nClass"           type="integer"/>
+	 <!--民族-->
+    <field name="nation"          type="string"/>
+	 <!--人脸特征-->
+    <field name="faceFeature"     type="string"/>
+	 <!--人脸图像位置-->
+    <field name="faceImagePath"   type="string"/>
+	 <!--校园卡磁卡信息-->
+    <field name="campusMagcard"   type="string"/>
+	 <!--时间戳-->
+    <field name="timeStamp"   	  type="string"/>
+	 <!--服务器用于计算得分年级的字段-->
+    <field name="stage"   	  type="integer" value="0"/>
+  </object>
+  
+  <!--2测试项目信息-->
+  <object name="TestItemInfo">
+    <!--项目标识符-->
+    <field name="testItem" 			   type="integer" unique="true"/>
+    <!--项目描述-->
+    <field name="testItemDescribe"     type="string"/>
+	 <!--项目单位-->
+    <field name="testItemUnit" 		   type="string"/>
+	 <!--项目单位描述-->
+    <field name="testItemUntiDescribe" type="string"/>
+  </object>
+
+  <!--3.用户体测结果表格-->
+  <object name="TestItemResult">
+	<!--内部定义唯一标识符标识符-->
+    <field name="codeUniqueID"    type="bigint" />
+    <!--测试项目-->
+    <field name="testItem" 		  type="integer"/>
+    <!--测试性质-->
+    <field name="testNature" 	  type="integer"/>
+    <!--测试时间-->
+    <field name="testTime" 		  type="string"  />
+    <!--测试成绩-->
+    <field name="testMulitResult" type="string"  />
+    <!--测试过程数据，保存的测试过程中的图像或者视频路径-->
+    <field name="processDataPath" type="string"  />
+    <!--结果置信度-->
+    <field name="confidence"	  type="string"/>
+    <!--结果签名-->
+    <field name="resultSignature" type="string"  />
+    <!--同步标志-->
+    <field name="syncServer" 	  type="boolean" default="false"/>
+	<!--设备ID号-->
+	<field name="deviceID"        type="string"/>
+  </object>
+  
+  <!--4得分规则-->
+	<!--测试项目-->
+  <object name="ScoreRules">
+	<field name="testItem"	  		type="integer"/>
+	<field name="grade"		  		type="integer"/>
+	<field name="gender"			type="boolean"/>
+	<field name="valueLeft"		    type="float"      default="0.0f"/>
+	<field name="valueRight"	    type="float"      default="0.0f"/>
+	<field name="score"				type="float"      default="0.0f"/>
+	<field name="ageS"				type="float"      default="0.0f"/>
+	<field name="ageE"				type="float"      default="0.0f"/>
+	<field name="version"			type="integer"    default="1"/>
+  </object>
+	
+  <!--5配置文件版本号-->
+  <object name="ConfigVersion">
+	<!--版本号-->
+	<field name="cfgVersion"	type="string"/>
+  </object>
+ 
+   <!--6数据同步时间-->
+  <object name="DataSyncTime">
+	<field name="tableType"	    type="integer" unique="true"/>
+	<field name="lastSyncTime"	type="string"/>
+  </object>
+  
+  <!--6数据同步时间-->
+  <object name="ClassInfo">
+	<field name="classUniqueID"	    type="integer" unique="true"/>
+	<field name="classDescribe"		type="string"/>
+	 <!--时间戳-->
+    <field name="timeStamp"   	  	type="string"/>
+  </object>
+  
+  <!--摄像机配置-->
+  <object name="CameraDeviceConfig">
+    <!--摄像机名称-->
+    <field name="camName"            type="string"/>
+	 <!--摄像机作用类型-->
+    <field name="camUseType"         type="integer">
+	  <!--人脸识别-->
+      <value name="FaceRecognition"  value="0"/>
+	  <!--拍照-->
+      <value name="PhotoGraph"       value="1"/>
+	</field>
+  </object>
+  
+  <!--设备硬件信息配置-->
+   <object name="DevHWInfoConfig">
+    <!--设备信道-->
+    <field name="channel"            type="integer"/>
+	<!--最大连接数量-->
+    <field name="maxDevCount"        type="integer"/>
+	<!--分机编号-->
+    <field name="devNum"       		 type="integer"/>
+  </object>
+  
+   <!--设备软件相关配置-->
+   <object name="DevSWInfoConfig">
+    <!--设备类型-->
+    <field name="testDev"           type="integer"/>
+	<!--测试次数-->
+    <field name="testTimes"          type="integer"/>
+	<!--测试等待时间-->
+    <field name="testStartWaitTime"  type="integer"/>
+	<!--测试等待时间-->
+    <field name="testPageCountTime"  type="integer"/>
+	<!--测试项目-->
+    <field name="testItem"           type="string"/>
+   </object>
+  
+   <!--系统测试信息配置-->
+   <object name="DevTestInfoConfig">
+    <!--测试模式-->
+    <field name="testMode"            type="integer">
+	  <!--同步测试-->
+      <value name="Sync"  			  value="0"/>
+	  <!--异步测试-->
+      <value name="Async"		      value="1"/>
+	</field>
+	<!--是否显示成绩-->
+    <field name="bDisplayScore"       type="boolean"/>
+	<!--短跑设备是否使用起点-->
+    <field name="bUseRunShortStart"   type="boolean"  default="true"/>
+	<!--中长跑长度配置-->
+    <field name="runMidLength"        type="integer"/>
+	<!--跳绳数据接收延时-->
+    <field name="ropeDelayTime"       type="integer" />
+	<!--立定跳远起跳区域设置-->
+	<field name="standingJumpStartPos" type="integer" default = "40"/>
+	<!--设备连接模式-->
+    <field name="devConnectMode"      type="boolean" default="false"/>
+	<!--设备连接模式自动模式（自动根据设备判断）-->
+    <field name="devConnectModeAuto"      type="boolean" default="true"/>
+  </object>
+  <!--提交弹窗的配置-->
+  <object name="CommitPopupConfig">
+	<!--取消成绩按钮配置-->
+	<field name="delScoreType"        type="integer">
+		<!--取消按钮禁用-->
+		<value name="Disable"         value="0"/>
+		<!--取消按钮可点-->
+		<value name="Enable"          value="1"/>
+    </field>
+	<!--提交模式-->
+	<field name="commitType"        type="integer">
+		<!--手动提交-->
+		<value name="Manual"        value="0"/>
+		<!--自动提交-->
+		<value name="Auto"          value="1"/>
+    </field>
+	<!--是否需要签字版-->
+	<field name="signatureExisted"   type="integer">
+		<value name="NotExisted"		value="0"/>
+		<value name="Existed"           value="1"/>
+	</field>
+	<!--自动提交倒计时-->
+	<field name="autoCommitCountTime"	 type="integer"/>
+	<!--是否开启用户信息展示页-->
+	<field name = "userInfoPageExisted"  type = "integer" default = "1">
+		<value name = "Exixted"					    value = "1" />
+		<value name = "NoExixted"					value = "0" />
+	</field>
+  </object>
+ 
+ </database>

@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Analysis\CAnalysisHBC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamerInfoForTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteCheatCheck\CCheatCheckBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfirmDevBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\CConfirmDevPowerUart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\CConfirmDevRun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\CConfirmDevSte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurStudentTestRet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataParseBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\CDataParsePowerUart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\CDataParseRunNFC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\CDataParseSteStation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevHardwareBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\CDevPowerUart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevRope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\RunNFC\CDevRunNFC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteEyesight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\CDevSteFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteGrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevStePullUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevStePushup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteRunMid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteRunShort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteSBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteSFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteSitUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteSkip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevSteVC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeviceBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\CDeviceManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CFaceRecognition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CFindUserBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CFindUserByFaceFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CFindUserByMagneticCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CFindUserByStudentID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGenerationCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\CIdentificDevNFC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserIdentification\CIdentifyUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInterAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysicalMeasureDataManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\CPowerSerialPortCom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResoureModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreRuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerCommunication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftMachineMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\CSteDeviceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementEyesight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementGrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementPullUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementPushup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementRopeSkip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementRunMid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementRunShort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementSBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementSFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementSitUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementVC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemConfig\CSystemConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideEyesight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideGrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuidePullup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuidePushup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideRunMid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideRunShort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideSBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideSFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideSitUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideSkip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuideVC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingPullUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingSitSBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingSitSFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingSitUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProcAntiCheating\CTestProcAntiCheatingVC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcBCI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcHeight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcPullUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcRun1000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcRun50.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcRun800.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcSBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcSFB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcSitUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcVC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcWeight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestStateManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManger\CUserManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManger\CUserRoleManage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemConfig\CfgSpeechSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis\CoefFactor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\Error\DevExcept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\PowerUartApplication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\PowerUartBaseDefine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\PowerUartDataLink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssistDevManager\PowerUart\PowerUartFifo8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManger\Public.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManger\tranStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcEyesight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcGrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcPushup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControl\CustomSignBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomControl\CCustomCurveView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDevDataCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\CDevStePVV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteDevManager\SteDevice\SteSubElement\CSubElementPVV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SteTestGuide\CTestGuidePVV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc\CTestProcPVV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analysis\CAnalysisHBC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamerInfoForTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteCheatCheck\CCheatCheckBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="CConfirmDevBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="AssistDevManager\PowerUart\CConfirmDevPowerUart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\CConfirmDevRun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="SteDevManager\CConfirmDevSte.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CCurStudentTestRet.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="CDataParseBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\CDataParsePowerUart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\CDataParseRunNFC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\CDataParseSteStation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevHardwareBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="AssistDevManager\PowerUart\CDevPowerUart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteDevManager\SteDevice\CDevRope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="AssistDevManager\RunNFC\CDevRunNFC.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteDevManager\SteDevice\CDevSteBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteEyesight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="SteDevManager\CDevSteFactory.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteGrip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevStePullUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevStePushup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteRunShort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteSBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteSFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteSitUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevSteVC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="CDeviceBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AssistDevManager\CDeviceManage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CElementStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="UserIdentification\CFaceRecognition.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserIdentification\CFindUserBasic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserIdentification\CFindUserByFaceFeature.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserIdentification\CFindUserByMagneticCard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="UserIdentification\CFindUserByStudentID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenerationCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="AssistDevManager\CIdentificDevNFC.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserIdentification\CIdentifyUser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="CImageProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="CInterAction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CMainFrame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="CPhysicalMeasureDataManage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\CPowerSerialPortCom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResoureModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="CScoreRuleInfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CServerCommunication.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CSingleApplication.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="CSoftMachineMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CSteCommonDefin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="SteDevManager\CSteDeviceManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteDevManager\SteDevice\SteSubElement\CSubElementBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementEyesight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementGrip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementPullUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementPushup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementRopeSkip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementRunBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementRunMid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementRunShort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementSBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementSFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementSitUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementVC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="SteTestGuide\CTestGuideBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SteTestGuide\CTestGuideBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideEyesight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideGrip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuidePullup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuidePushup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideRunShort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideSBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideSFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideSitUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuideVC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="TestProcAntiCheating\CTestProcAntiCheatingBasic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="TestProcAntiCheating\CTestProcAntiCheatingPullUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProcAntiCheating\CTestProcAntiCheatingSitSBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProcAntiCheating\CTestProcAntiCheatingSitSFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProcAntiCheating\CTestProcAntiCheatingSitUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProcAntiCheating\CTestProcAntiCheatingVC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcBCI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcHeight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcManage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcPullUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcRun1000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcRun50.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcRun800.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcSBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcSFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcSitUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcVC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcWeight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="CTestStateManage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserManger\CUserManage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SystemConfig\CfgSpeechSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Analysis\CoefFactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\Error\DevExcept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\Error\IDevExcept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\PowerUartApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\PowerUartBaseDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\PowerUartDataLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssistDevManager\PowerUart\PowerUartFifo8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManger\Public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemConfig\SystemConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\TestMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManger\UserRoleManage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManger\tranStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDevDataCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\CDevStePVV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteDevManager\SteDevice\SteSubElement\CSubElementPVV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteTestGuide\CTestGuidePVV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProc\CTestProcPVV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AssistDevManager\PowerUart\Readme.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CProjectEnums.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CCommonDataModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteTestGuide\CTestGuideSkip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteDevManager\SteDevice\CDevSteSkip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteTestGuide\CTestGuideRunMid.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteTestGuide\CTestGuideManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomControl\CCustomCurveView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomControl\CustomSignBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SteDevManager\SteDevice\CDevSteRunMid.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

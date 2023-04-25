@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{7FF45F1E-77AF-3167-A613-5D3592ACAE0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Communication", "Communication\Communication.vcxproj", "{A26D7560-D6A6-3BDA-8A5C-10250634CE6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{7D751A46-F05E-36E8-86ED-81693D672825}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C} = {A26D7560-D6A6-3BDA-8A5C-10250634CE6C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STE-100", "App\STE-100\STE-100.vcxproj", "{7CA7FEFF-3FD0-38A3-B873-38984CF6343C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FF45F1E-77AF-3167-A613-5D3592ACAE0E} = {7FF45F1E-77AF-3167-A613-5D3592ACAE0E}
+		{7D751A46-F05E-36E8-86ED-81693D672825} = {7D751A46-F05E-36E8-86ED-81693D672825}
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C} = {A26D7560-D6A6-3BDA-8A5C-10250634CE6C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{15D2DB01-CA5F-3800-91B1-A4BB6EA49FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF45F1E-77AF-3167-A613-5D3592ACAE0E}.Debug|x64.ActiveCfg = Debug|x64
+		{7FF45F1E-77AF-3167-A613-5D3592ACAE0E}.Debug|x64.Build.0 = Debug|x64
+		{7FF45F1E-77AF-3167-A613-5D3592ACAE0E}.Release|x64.ActiveCfg = Release|x64
+		{7FF45F1E-77AF-3167-A613-5D3592ACAE0E}.Release|x64.Build.0 = Release|x64
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C}.Debug|x64.ActiveCfg = Debug|x64
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C}.Debug|x64.Build.0 = Debug|x64
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C}.Release|x64.ActiveCfg = Release|x64
+		{A26D7560-D6A6-3BDA-8A5C-10250634CE6C}.Release|x64.Build.0 = Release|x64
+		{7D751A46-F05E-36E8-86ED-81693D672825}.Debug|x64.ActiveCfg = Debug|x64
+		{7D751A46-F05E-36E8-86ED-81693D672825}.Debug|x64.Build.0 = Debug|x64
+		{7D751A46-F05E-36E8-86ED-81693D672825}.Release|x64.ActiveCfg = Release|x64
+		{7D751A46-F05E-36E8-86ED-81693D672825}.Release|x64.Build.0 = Release|x64
+		{7CA7FEFF-3FD0-38A3-B873-38984CF6343C}.Debug|x64.ActiveCfg = Debug|x64
+		{7CA7FEFF-3FD0-38A3-B873-38984CF6343C}.Debug|x64.Build.0 = Debug|x64
+		{7CA7FEFF-3FD0-38A3-B873-38984CF6343C}.Release|x64.ActiveCfg = Release|x64
+		{7CA7FEFF-3FD0-38A3-B873-38984CF6343C}.Release|x64.Build.0 = Release|x64
+		{15D2DB01-CA5F-3800-91B1-A4BB6EA49FC5}.Debug|x64.ActiveCfg = Debug|x64
+		{15D2DB01-CA5F-3800-91B1-A4BB6EA49FC5}.Debug|x64.Build.0 = Debug|x64
+		{15D2DB01-CA5F-3800-91B1-A4BB6EA49FC5}.Release|x64.ActiveCfg = Release|x64
+		{15D2DB01-CA5F-3800-91B1-A4BB6EA49FC5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B6B8A7-F51B-4A91-87C2-5F5CD240065A}
+		Qt5Version = 5.12.4_msvc2015_64
+	EndGlobalSection
+EndGlobal

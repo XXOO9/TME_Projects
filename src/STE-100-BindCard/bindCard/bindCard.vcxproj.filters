@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAbstractInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAbstractTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataBaseManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInteractionClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInteractionStudent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetWorkManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStuListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStudentInfoDataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStudentInfoMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystemSelfCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectMetaEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CAbstractInteraction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CAbstractTableModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CClassListModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CDataBaseManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CDataModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CInteractionClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CInteractionStudent.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CMainFrame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CNetWorkManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CStuListModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CStudentInfoDataBase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CStudentInfoMgr.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CSystemSelfCheck.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CViewManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="DataBaseConfigInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="ProjectMetaEnums.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BindCardBtn.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="BindedArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CardArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CustComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CustTableView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="InfoAreaClass.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="InfoAreaStu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\Logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PageClassBind.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PageLogoIn.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PageUserBind.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TopTitle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TopTitleBtn.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UserIdInput.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\YKtitle1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\YKtitle2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\class1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\class2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\head.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\loginImg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\logo1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="Pic\right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\title.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\user1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\user2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Pic\userLogin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿#ifndef CSUBELEMENTPPV_H
+#define CSUBELEMENTPPV_H
+#include "CSubElementBase.h"
+
+class CSubElementPPV : public CSubElementBase
+{
+public:
+    CSubElementPPV (unsigned short shUnitID, unsigned int iElementID);
+    virtual ~CSubElementPPV() override;
+
+    //设置 子元素信息 (根据类型不同，包括结果、违规标志、电量等)
+    virtual void setElementInfo(void* pData, unsigned short shLength) override;
+
+    inline float &getDataVC(){return m_objData.m_fData;}
+
+    //测试单元开启测试,外部在开始测试之前进行设置
+    virtual void startTest() override;
+    virtual void stopTest() override;
+};
+
+#endif // CSUBELEMENTPPV_H

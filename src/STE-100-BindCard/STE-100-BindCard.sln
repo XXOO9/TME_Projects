@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "D:/qtproject/ste-100-new/src/STE-100-BindCard/Common\Common.vcxproj", "{065CAC45-32E0-3501-B0D6-E7248BC4C433}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bindCard", "D:/qtproject/ste-100-new/src/STE-100-BindCard/bindCard\bindCard.vcxproj", "{EE1A84C9-CA0B-3491-B5D3-3019D304394A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065CAC45-32E0-3501-B0D6-E7248BC4C433}.Debug|x64.ActiveCfg = Debug|x64
+		{065CAC45-32E0-3501-B0D6-E7248BC4C433}.Debug|x64.Build.0 = Debug|x64
+		{065CAC45-32E0-3501-B0D6-E7248BC4C433}.Release|x64.ActiveCfg = Release|x64
+		{065CAC45-32E0-3501-B0D6-E7248BC4C433}.Release|x64.Build.0 = Release|x64
+		{EE1A84C9-CA0B-3491-B5D3-3019D304394A}.Debug|x64.ActiveCfg = Debug|x64
+		{EE1A84C9-CA0B-3491-B5D3-3019D304394A}.Debug|x64.Build.0 = Debug|x64
+		{EE1A84C9-CA0B-3491-B5D3-3019D304394A}.Release|x64.ActiveCfg = Release|x64
+		{EE1A84C9-CA0B-3491-B5D3-3019D304394A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

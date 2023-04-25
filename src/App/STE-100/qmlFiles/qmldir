@@ -1,0 +1,2 @@
+﻿singleton GlobalProperty  GlobalProperty.qml
+singleton SignPainterConfig ./ConfigObject/SignPainterConfig.qml
